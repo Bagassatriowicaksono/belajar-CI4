@@ -1,0 +1,291 @@
+CRITICAL - 2024-07-08 12:48:58 --> Error: Call to a member function contents() on null
+in APPPATH\Controllers\TransaksiController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TransaksiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-08 13:24:58 --> Error: Call to a member function contents() on null
+in APPPATH\Controllers\TransaksiController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TransaksiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-08 13:25:09 --> Error: Call to a member function contents() on null
+in APPPATH\Controllers\TransaksiController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TransaksiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-08 13:29:17 --> Error: Call to a member function contents() on null
+in APPPATH\Controllers\TransaksiController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TransaksiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-08 13:34:52 --> Error: Call to a member function contents() on null
+in APPPATH\Controllers\TransaksiController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TransaksiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-08 13:46:42 --> RuntimeException: Cart service is not initialized.
+in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TransaksiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-08 13:47:17 --> Error: Call to a member function contents() on null
+in APPPATH\Controllers\TransaksiController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TransaksiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-08 14:08:31 --> Error: Call to a member function contents() on null
+in APPPATH\Controllers\TransaksiController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TransaksiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-08 14:12:14 --> Error: Call to a member function contents() on null
+in APPPATH\Controllers\TransaksiController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TransaksiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-08 14:12:40 --> Error: Call to a member function contents() on null
+in APPPATH\Controllers\TransaksiController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TransaksiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-08 14:12:44 --> Error: Call to a member function contents() on null
+in APPPATH\Controllers\TransaksiController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TransaksiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-08 14:13:29 --> Error: Call to a member function contents() on null
+in APPPATH\Controllers\TransaksiController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TransaksiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-08 14:14:00 --> Error: Call to a member function contents() on null
+in APPPATH\Controllers\TransaksiController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TransaksiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-08 14:15:59 --> Error: Call to a member function contents() on null
+in APPPATH\Controllers\TransaksiController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TransaksiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-08 14:18:46 --> ErrorException: ini_set(): Session ini settings cannot be changed after headers have already been sent
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed after headers have already been sent', 'D:\\CI4\\vendor\\codeigniter4\\framework\\system\\Session\\Handlers\\FileHandler.php', 72)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(72): ini_set('session.save_path', 'D:\\CI4\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(686): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\Session), '::1')
+ 4 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 5 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(664): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH\Common.php(982): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 APPPATH\Filters\Auth.php(14): session()
+10 SYSTEMPATH\Filters\Filters.php(184): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+11 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('produk', 'before')
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-08 14:22:02 --> Error: Call to a member function contents() on null
+in APPPATH\Controllers\TransaksiController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TransaksiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-08 14:36:12 --> Error: Call to a member function contents() on null
+in APPPATH\Controllers\TransaksiController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TransaksiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-08 14:37:12 --> Error: Call to a member function contents() on null
+in APPPATH\Controllers\TransaksiController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TransaksiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-08 14:37:47 --> Error: Call to undefined function form_open()
+in APPPATH\Views\v_home.php on line 17.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_home', [], true)
+ 4 APPPATH\Controllers\Home.php(23): view('v_home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-08 14:40:50 --> Error: Call to undefined function form_open()
+in APPPATH\Views\v_home.php on line 17.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_home', [], true)
+ 4 APPPATH\Controllers\Home.php(23): view('v_home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-08 14:41:37 --> Error: Call to undefined function form_open()
+in APPPATH\Views\v_home.php on line 17.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_home', [], true)
+ 4 APPPATH\Controllers\Home.php(23): view('v_home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-08 14:41:59 --> Error: Call to a member function contents() on null
+in APPPATH\Controllers\TransaksiController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TransaksiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-08 14:42:54 --> Error: Call to a member function contents() on null
+in APPPATH\Controllers\TransaksiController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TransaksiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-08 14:43:39 --> Error: Call to a member function contents() on null
+in APPPATH\Controllers\TransaksiController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TransaksiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-08 14:45:01 --> Error: Call to undefined function form_open()
+in APPPATH\Views\v_home.php on line 17.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_home', [], true)
+ 4 APPPATH\Controllers\Home.php(23): view('v_home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-08 14:49:24 --> Error: Call to undefined function form_open()
+in APPPATH\Views\v_home.php on line 17.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_home', [], true)
+ 4 APPPATH\Controllers\Home.php(23): view('v_home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-08 14:49:56 --> Error: Call to undefined function form_open()
+in APPPATH\Views\v_home.php on line 17.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_home', [], true)
+ 4 APPPATH\Controllers\Home.php(23): view('v_home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-08 14:50:33 --> Error: Call to undefined function form_open()
+in APPPATH\Views\v_home.php on line 17.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_home', [], true)
+ 4 APPPATH\Controllers\Home.php(23): view('v_home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-08 14:59:38 --> Error: Call to undefined function form_open()
+in APPPATH\Views\v_home.php on line 17.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_home', [], true)
+ 4 APPPATH\Controllers\Home.php(23): view('v_home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-08 15:00:14 --> Error: Call to a member function contents() on null
+in APPPATH\Controllers\TransaksiController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TransaksiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-08 15:00:19 --> Error: Call to undefined function form_open()
+in APPPATH\Views\v_home.php on line 17.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_home', [], true)
+ 4 APPPATH\Controllers\Home.php(23): view('v_home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-08 15:00:20 --> Error: Call to a member function contents() on null
+in APPPATH\Controllers\TransaksiController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TransaksiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-08 15:00:21 --> Error: Call to undefined function form_open()
+in APPPATH\Views\v_home.php on line 17.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_home', [], true)
+ 4 APPPATH\Controllers\Home.php(23): view('v_home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-08 15:00:35 --> Error: Call to undefined function form_open()
+in APPPATH\Views\v_home.php on line 17.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_home', [], true)
+ 4 APPPATH\Controllers\Home.php(23): view('v_home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')

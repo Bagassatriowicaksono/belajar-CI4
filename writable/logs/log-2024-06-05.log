@@ -1,0 +1,263 @@
+INFO - 2024-06-05 04:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 04:08:51 --> Error: Call to a member function findAll() on null
+in APPPATH\Controllers\Home.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->profile()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PWL\\public\\index.php')
+INFO - 2024-06-05 04:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 04:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 04:11:23 --> Error: Call to a member function findAll() on null
+in APPPATH\Controllers\Home.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->profile()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PWL\\public\\index.php')
+INFO - 2024-06-05 04:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-05 12:51:33 --> mysqli_sql_exception: Table 'user' already exists in D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\Database\Forge.php(555): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\app\Database\Migrations\2024-06-05-124754_User.php(50): CodeIgniter\Database\Forge->createTable('user')
+#5 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(865): App\Database\Migrations\User->up()
+#6 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(181): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-06-05 12:51:49 --> mysqli_sql_exception: Table 'user' already exists in D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\Database\Forge.php(555): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\app\Database\Migrations\2024-06-05-124754_User.php(50): CodeIgniter\Database\Forge->createTable('user')
+#5 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(865): App\Database\Migrations\User->up()
+#6 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(181): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-06-05 12:54:33 --> mysqli_sql_exception: Table 'user' already exists in D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\Database\Forge.php(555): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\app\Database\Migrations\2024-06-05-124754_User.php(50): CodeIgniter\Database\Forge->createTable('user')
+#5 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(865): App\Database\Migrations\User->up()
+#6 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(181): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-06-05 12:56:32 --> mysqli_sql_exception: Table 'user' already exists in D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\Database\Forge.php(555): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\app\Database\Migrations\2024-06-05-124754_User.php(50): CodeIgniter\Database\Forge->createTable('user')
+#5 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(865): App\Database\Migrations\User->up()
+#6 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(181): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\BAGAS\UDINUS TI\Semester 4\PWL\New folder\CI4\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-06-05 13:02:19 --> mysqli_sql_exception: Table 'user' already exists in C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\Forge.php(555): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\CI4\app\Database\Migrations\2024-06-05-124754_User.php(50): CodeIgniter\Database\Forge->createTable('user')
+#5 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(865): App\Database\Migrations\User->up()
+#6 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(181): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\CI4\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-06-05 13:04:13 --> mysqli_sql_exception: Table 'user' already exists in C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\Forge.php(555): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\CI4\app\Database\Migrations\2024-06-05-124754_User.php(50): CodeIgniter\Database\Forge->createTable('user')
+#5 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(865): App\Database\Migrations\User->up()
+#6 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(181): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\CI4\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-06-05 13:09:09 --> mysqli_sql_exception: Table 'user' already exists in C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\Forge.php(555): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\CI4\app\Database\Migrations\2024-06-05-124754_User.php(50): CodeIgniter\Database\Forge->createTable('user')
+#5 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(865): App\Database\Migrations\User->up()
+#6 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(181): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\CI4\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-06-05 13:11:15 --> mysqli_sql_exception: Table 'user' already exists in C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\Forge.php(555): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\CI4\app\Database\Migrations\2024-06-05-124754_User.php(50): CodeIgniter\Database\Forge->createTable('user')
+#5 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(865): App\Database\Migrations\User->up()
+#6 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(181): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\CI4\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-06-05 13:16:49 --> mysqli_sql_exception: Table 'user' already exists in C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\Forge.php(555): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\CI4\app\Database\Migrations\2024-06-05-124754_User.php(50): CodeIgniter\Database\Forge->createTable('user')
+#5 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(865): App\Database\Migrations\User->up()
+#6 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(181): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\CI4\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-06-05 13:19:52 --> mysqli_sql_exception: Table 'user' already exists in C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\Forge.php(555): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\CI4\app\Database\Migrations\2024-06-05-124754_User.php(50): CodeIgniter\Database\Forge->createTable('user')
+#5 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(865): App\Database\Migrations\User->up()
+#6 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(181): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\CI4\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-06-05 13:24:41 --> mysqli_sql_exception: Table 'user' already exists in C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\Forge.php(555): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\CI4\app\Database\Migrations\2024-06-05-132231_User.php(50): CodeIgniter\Database\Forge->createTable('user')
+#5 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(865): App\Database\Migrations\User->up()
+#6 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(181): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\CI4\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-06-05 13:39:23 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'data_ci4' in C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'data_ci4', 3306, '', 0)
+#1 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\CI4\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'data_ci4' in C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\xampp\htdocs\CI4\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-06-05 13:50:08 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'data_ci4' in C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'data_ci4', 3306, '', 0)
+#1 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\CI4\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'data_ci4' in C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\xampp\htdocs\CI4\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\xampp\htdocs\CI4\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2024-06-05 15:03:18 --> ParseError: syntax error, unexpected token "else", expecting "function" or "const"
+in APPPATH\Controllers\AuthController.php on line 44.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\CI4\\app\\Controllers\\AuthController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AuthController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AuthController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\AuthController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CI4\\public\\index.php')
+CRITICAL - 2024-06-05 15:23:44 --> Error: Call to a member function findAll() on null
+in APPPATH\Controllers\Home.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CI4\\public\\index.php')
+CRITICAL - 2024-06-05 15:24:07 --> Error: Call to a member function findAll() on null
+in APPPATH\Controllers\Home.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CI4\\public\\index.php')
+CRITICAL - 2024-06-05 15:24:41 --> Error: Call to a member function findAll() on null
+in APPPATH\Controllers\Home.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CI4\\public\\index.php')

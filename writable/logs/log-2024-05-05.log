@@ -1,0 +1,20 @@
+CRITICAL - 2024-05-05 15:01:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "produk.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('produk.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 3 APPPATH\Controllers\ProdukController.php(12): view('produk')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProdukController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\BAGAS\\UDINUS TI\\Semester 4\\PWL\\New folder\\CI4\\public\\index.php')
+CRITICAL - 2024-05-05 15:02:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "produk.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('produk.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('produk', [], true)
+ 3 APPPATH\Controllers\ProdukController.php(12): view('produk')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProdukController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\BAGAS\\UDINUS TI\\Semester 4\\PWL\\New folder\\CI4\\public\\index.php')
