@@ -1,0 +1,28 @@
+CRITICAL - 2024-07-13 14:35:52 --> Error: Call to a member function contents() on null
+in APPPATH\Controllers\TransaksiController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TransaksiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-13 14:37:31 --> Error: Call to a member function contents() on null
+in APPPATH\Controllers\TransaksiController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TransaksiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-13 14:37:31 --> Error: Call to a member function contents() on null
+in APPPATH\Controllers\TransaksiController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TransaksiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-13 14:55:17 --> Error: Call to a member function contents() on null
+in APPPATH\Controllers\TransaksiController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TransaksiController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')

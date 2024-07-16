@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'codeigniter4/appstarter',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '1421440fd3643b84596a75815ad549410e95488d',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'codeigniter4/appstarter' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '1421440fd3643b84596a75815ad549410e95488d',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -72,6 +72,15 @@
             'install_path' => __DIR__ . '/../fakerphp/faker',
             'aliases' => array(),
             'dev_requirement' => true,
+        ),
+        'jason-napolitano/codeigniter4-cart-module' => array(
+            'pretty_version' => '1.1.0',
+            'version' => '1.1.0.0',
+            'reference' => 'f696be03e715884a04e52d28f104f3f13c326d2b',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../jason-napolitano/codeigniter4-cart-module',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'laminas/laminas-escaper' => array(
             'pretty_version' => '2.13.0',

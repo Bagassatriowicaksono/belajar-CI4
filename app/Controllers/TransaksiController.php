@@ -19,7 +19,7 @@ class TransaksiController extends BaseController
         helper('form');
         $this->cart = \Config\Services::cart();
         $this->transaction = new TransactionModel();
-        $this->transaction = new TransactionModel();
+        $this->transaction_detail = new TransactionDetailModel(); // Corrected this line
     }
 
     public function index()
@@ -75,7 +75,7 @@ class TransaksiController extends BaseController
         $data['items'] = $this->cart->contents();
         $data['total'] = $this->cart->total();
         $provinsi = $this->rajaongkir('province');
-				$data['provinsi'] = json_decode($provinsi)->rajaongkir->results;
+        $data['provinsi'] = json_decode($provinsi)->rajaongkir->results;
 
         return view('v_checkout', $data);
     }
@@ -162,38 +162,38 @@ class TransaksiController extends BaseController
 
     public function buy()
     {
-    if ($this->request->getPost()) { 
-        $dataForm = [
-            'username' => $this->request->getPost('username'),
-            'total_harga' => $this->request->getPost('total_harga'),
-            'alamat' => $this->request->getPost('alamat'),
-            'ongkir' => $this->request->getPost('ongkir'),
-            'status' => 0,
-            'created_at' => date("Y-m-d H:i:s"),
-            'updated_at' => date("Y-m-d H:i:s")
-        ];
-
-        $this->transaction->insert($dataForm);
-
-        $last_insert_id = $this->transaction->getInsertID();
-
-        foreach ($this->cart->contents() as $value) {
-            $dataFormDetail = [
-                'transaction_id' => $last_insert_id,
-                'product_id' => $value['id'],
-                'jumlah' => $value['qty'],
-                'diskon' => 0,
-                'subtotal_harga' => $value['qty'] * $value['price'],
+        if ($this->request->getPost()) {
+            $dataForm = [
+                'username' => $this->request->getPost('username'),
+                'total_harga' => $this->request->getPost('total_harga'),
+                'alamat' => $this->request->getPost('alamat'),
+                'ongkir' => $this->request->getPost('ongkir'),
+                'status' => 0,
                 'created_at' => date("Y-m-d H:i:s"),
                 'updated_at' => date("Y-m-d H:i:s")
             ];
 
-            $this->transaction_detail->insert($dataFormDetail);
-        }
+            $this->transaction->insert($dataForm);
 
-        $this->cart->destroy();
- 
-        return redirect()->to(base_url('profile'));
-    }
+            $last_insert_id = $this->transaction->getInsertID();
+
+            foreach ($this->cart->contents() as $value) {
+                $dataFormDetail = [
+                    'transaction_id' => $last_insert_id,
+                    'product_id' => $value['id'],
+                    'jumlah' => $value['qty'],
+                    'diskon' => 0,
+                    'subtotal_harga' => $value['qty'] * $value['price'],
+                    'created_at' => date("Y-m-d H:i:s"),
+                    'updated_at' => date("Y-m-d H:i:s")
+                ];
+
+                $this->transaction_detail->insert($dataFormDetail);
+            }
+
+            $this->cart->destroy();
+
+            return redirect()->to(base_url('profile'));
+        }
     }
 }

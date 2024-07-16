@@ -50,6 +50,7 @@ class ComposerStaticInita5a7f8ce4841a8b41172122ae52c87b1
         'C' => 
         array (
             'CodeIgniter\\' => 12,
+            'CodeIgniterCart\\' => 16,
         ),
     );
 
@@ -110,6 +111,10 @@ class ComposerStaticInita5a7f8ce4841a8b41172122ae52c87b1
         array (
             0 => __DIR__ . '/..' . '/codeigniter4/framework/system',
         ),
+        'CodeIgniterCart\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jason-napolitano/codeigniter4-cart-module/src',
+        ),
     );
 
     public static $prefixesPsr0 = array (
@@ -123,6 +128,8 @@ class ComposerStaticInita5a7f8ce4841a8b41172122ae52c87b1
     );
 
     public static $classMap = array (
+        'CodeIgniterCart\\Cart' => __DIR__ . '/..' . '/jason-napolitano/codeigniter4-cart-module/src/Cart.php',
+        'CodeIgniterCart\\Config\\Services' => __DIR__ . '/..' . '/jason-napolitano/codeigniter4-cart-module/src/Config/Services.php',
         'CodeIgniter\\API\\ResponseTrait' => __DIR__ . '/..' . '/codeigniter4/framework/system/API/ResponseTrait.php',
         'CodeIgniter\\Autoloader\\Autoloader' => __DIR__ . '/..' . '/codeigniter4/framework/system/Autoloader/Autoloader.php',
         'CodeIgniter\\Autoloader\\FileLocator' => __DIR__ . '/..' . '/codeigniter4/framework/system/Autoloader/FileLocator.php',

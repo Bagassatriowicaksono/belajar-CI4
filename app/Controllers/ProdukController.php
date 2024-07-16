@@ -24,8 +24,8 @@ class ProdukController extends BaseController
 
     public function create()
     {
-        $dataFoto = $this->request->getFile('foto');
-
+        //$dataFoto = $this->request->getFile('foto');
+     
         $dataForm = [
             'nama' => $this->request->getPost('nama'),
             'harga' => $this->request->getPost('harga'),
@@ -33,11 +33,11 @@ class ProdukController extends BaseController
             'created_at' => date("Y-m-d H:i:s")
         ];
 
-        if ($dataFoto->isValid() && !$dataFoto->hasMoved()) {
-            $fileName = $dataFoto->getRandomName();
-            $dataForm['foto'] = $fileName;
-            $dataFoto->move('img/', $fileName);
-        }
+        // if ($dataFoto->isValid() && !$dataFoto->hasMoved()) {
+        //     $fileName = $dataFoto->getRandomName();
+        //     $dataForm['foto'] = $fileName;
+        //    // $dataFoto->move('img/', $fileName);
+        // }
 
         $this->product->insert($dataForm);
 

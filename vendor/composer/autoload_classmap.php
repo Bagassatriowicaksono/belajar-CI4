@@ -6,6 +6,8 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'CodeIgniterCart\\Cart' => $vendorDir . '/jason-napolitano/codeigniter4-cart-module/src/Cart.php',
+    'CodeIgniterCart\\Config\\Services' => $vendorDir . '/jason-napolitano/codeigniter4-cart-module/src/Config/Services.php',
     'CodeIgniter\\API\\ResponseTrait' => $vendorDir . '/codeigniter4/framework/system/API/ResponseTrait.php',
     'CodeIgniter\\Autoloader\\Autoloader' => $vendorDir . '/codeigniter4/framework/system/Autoloader/Autoloader.php',
     'CodeIgniter\\Autoloader\\FileLocator' => $vendorDir . '/codeigniter4/framework/system/Autoloader/FileLocator.php',
