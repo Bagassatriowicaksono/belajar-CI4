@@ -369,3 +369,19 @@ in SYSTEMPATH\Session\Handlers\FileHandler.php on line 72.
 12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
 13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
 14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-16 15:03:24 --> ErrorException: Attempt to read property "rajaongkir" on null
+in APPPATH\Controllers\TransaksiController.php on line 78.
+ 1 APPPATH\Controllers\TransaksiController.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "rajaongkir" on null', 'D:\\CI4\\app\\Controllers\\TransaksiController.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TransaksiController->checkout()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\CI4\\public\\index.php')
+CRITICAL - 2024-07-16 16:15:13 --> ErrorException: Attempt to read property "rajaongkir" on null
+in APPPATH\Controllers\TransaksiController.php on line 78.
+ 1 APPPATH\Controllers\TransaksiController.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "rajaongkir" on null', 'C:\\xampp\\htdocs\\CI4\\app\\Controllers\\TransaksiController.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TransaksiController->checkout()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CI4\\public\\index.php')

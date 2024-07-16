@@ -33,7 +33,11 @@ $routes->get('getcity', 'TransaksiController::getcity', ['filter' => 'auth']);
 $routes->get('getcost', 'TransaksiController::getcost', ['filter' => 'auth']);
 $routes->get('buy', 'TransaksiController::buy', ['filter' => 'auth']);
 
-
 $routes->get('faq', 'Home::faq', ['filter' => 'auth']);
 $routes->get('profile', 'Home::profile', ['filter' => 'auth']);
 $routes->get('contact', 'Home::contact', ['filter' => 'auth']);
+
+$routes->resource('apiController');
+$routes->group('api', function ($routes) {
+    $routes->post('monthly', 'ApiController::monthly');
+});
