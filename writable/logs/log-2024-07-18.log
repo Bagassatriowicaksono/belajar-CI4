@@ -1,0 +1,168 @@
+CRITICAL - 2024-07-18 15:43:02 --> Error: Class "App\Controllers\TransactionModel" not found
+in APPPATH\Controllers\ApiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ApiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CI4\\public\\index.php')
+CRITICAL - 2024-07-18 15:43:03 --> Error: Class "App\Controllers\TransactionModel" not found
+in APPPATH\Controllers\ApiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ApiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CI4\\public\\index.php')
+CRITICAL - 2024-07-18 15:43:03 --> Error: Class "App\Controllers\TransactionModel" not found
+in APPPATH\Controllers\ApiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ApiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CI4\\public\\index.php')
+CRITICAL - 2024-07-18 15:43:03 --> Error: Class "App\Controllers\TransactionModel" not found
+in APPPATH\Controllers\ApiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ApiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CI4\\public\\index.php')
+CRITICAL - 2024-07-18 15:43:03 --> Error: Class "App\Controllers\TransactionModel" not found
+in APPPATH\Controllers\ApiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ApiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CI4\\public\\index.php')
+CRITICAL - 2024-07-18 15:43:03 --> Error: Class "App\Controllers\TransactionModel" not found
+in APPPATH\Controllers\ApiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ApiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CI4\\public\\index.php')
+CRITICAL - 2024-07-18 15:49:02 --> Error: Class "App\Controllers\TransactionModel" not found
+in APPPATH\Controllers\ApiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ApiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CI4\\public\\index.php')
+CRITICAL - 2024-07-18 15:49:02 --> Error: Class "App\Controllers\TransactionModel" not found
+in APPPATH\Controllers\ApiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ApiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CI4\\public\\index.php')
+CRITICAL - 2024-07-18 15:49:02 --> Error: Class "App\Controllers\TransactionModel" not found
+in APPPATH\Controllers\ApiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ApiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CI4\\public\\index.php')
+CRITICAL - 2024-07-18 15:49:02 --> Error: Class "App\Controllers\TransactionModel" not found
+in APPPATH\Controllers\ApiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ApiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CI4\\public\\index.php')
+CRITICAL - 2024-07-18 15:49:03 --> Error: Class "App\Controllers\TransactionModel" not found
+in APPPATH\Controllers\ApiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ApiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CI4\\public\\index.php')
+CRITICAL - 2024-07-18 15:49:03 --> Error: Class "App\Controllers\TransactionModel" not found
+in APPPATH\Controllers\ApiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ApiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CI4\\public\\index.php')
+CRITICAL - 2024-07-18 15:56:04 --> Error: Class "App\Controllers\TransactionModel" not found
+in APPPATH\Controllers\ApiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ApiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CI4\\public\\index.php')
+CRITICAL - 2024-07-18 15:56:04 --> Error: Class "App\Controllers\TransactionModel" not found
+in APPPATH\Controllers\ApiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ApiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CI4\\public\\index.php')
+CRITICAL - 2024-07-18 15:56:04 --> Error: Class "App\Controllers\TransactionModel" not found
+in APPPATH\Controllers\ApiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ApiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CI4\\public\\index.php')
+CRITICAL - 2024-07-18 15:56:04 --> Error: Class "App\Controllers\TransactionModel" not found
+in APPPATH\Controllers\ApiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ApiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CI4\\public\\index.php')
+CRITICAL - 2024-07-18 15:56:05 --> Error: Class "App\Controllers\TransactionModel" not found
+in APPPATH\Controllers\ApiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ApiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CI4\\public\\index.php')
+CRITICAL - 2024-07-18 15:56:05 --> Error: Class "App\Controllers\TransactionModel" not found
+in APPPATH\Controllers\ApiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ApiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CI4\\public\\index.php')
+CRITICAL - 2024-07-18 15:59:31 --> Error: Class "App\Controllers\TransactionModel" not found
+in APPPATH\Controllers\ApiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ApiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CI4\\public\\index.php')
+CRITICAL - 2024-07-18 15:59:31 --> Error: Class "App\Controllers\TransactionModel" not found
+in APPPATH\Controllers\ApiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ApiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CI4\\public\\index.php')
+CRITICAL - 2024-07-18 15:59:32 --> Error: Class "App\Controllers\TransactionModel" not found
+in APPPATH\Controllers\ApiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ApiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CI4\\public\\index.php')
+CRITICAL - 2024-07-18 15:59:32 --> Error: Class "App\Controllers\TransactionModel" not found
+in APPPATH\Controllers\ApiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ApiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CI4\\public\\index.php')
+CRITICAL - 2024-07-18 15:59:32 --> Error: Class "App\Controllers\TransactionModel" not found
+in APPPATH\Controllers\ApiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ApiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CI4\\public\\index.php')
+CRITICAL - 2024-07-18 15:59:32 --> Error: Class "App\Controllers\TransactionModel" not found
+in APPPATH\Controllers\ApiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ApiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CI4\\public\\index.php')

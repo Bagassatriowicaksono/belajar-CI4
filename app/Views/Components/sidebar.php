@@ -16,7 +16,7 @@
                 <span>Keranjang</span>
             </a>
         </li><!-- End Keranjang Nav -->
-        
+
         <?php if (session()->get('role') == 'admin') { ?>
             <li class="nav-item">
                 <a class="nav-link <?php echo (uri_string() == 'produk') ? "" : "collapsed" ?>" href="produk">
@@ -24,15 +24,22 @@
                     <span>Produk</span>
                 </a>
             </li><!-- End Produk Nav -->
+
+            <li class="nav-item">
+                <a class="nav-link <?php echo (uri_string() == 'transaksi') ? "" : "collapsed" ?>" href="transaksi">
+                    <i class="bi bi-folder-fill"></i>
+                    <span>Transaksi</span>
+                </a>
+            </li><!-- End Transaksi Nav -->
         <?php } ?>
-        
+
         <li class="nav-item">
             <a class="nav-link <?php echo (uri_string() == 'profile') ? "" : "collapsed" ?>" href="profile">
                 <i class="bi bi-person"></i>
                 <span>Profile</span>
             </a>
         </li><!-- End Profile Nav -->
-        
+
     </ul>
 
 </aside><!-- End Sidebar-->

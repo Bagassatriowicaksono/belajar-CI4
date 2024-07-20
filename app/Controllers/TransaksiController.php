@@ -19,7 +19,7 @@ class TransaksiController extends BaseController
         helper('form');
         $this->cart = \Config\Services::cart();
         $this->transaction = new TransactionModel();
-        $this->transaction_detail = new TransactionDetailModel(); // Corrected this line
+        $this->transaction_detail = new TransactionDetailModel(); 
     }
 
     public function index()

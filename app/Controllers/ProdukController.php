@@ -24,8 +24,20 @@ class ProdukController extends BaseController
 
     public function create()
     {
-        //$dataFoto = $this->request->getFile('foto');
-     
+        $validation = \Config\Services::validation();
+
+        $validation->setRules([
+            'nama' => 'required|min_length[5]',
+            'harga' => 'required|numeric',
+            'jumlah' => 'required|numeric',
+        ]);
+
+        if (!$validation->withRequest($this->request)->run()) {
+            return redirect()->back()->withInput()->with('errors', $validation->getErrors());
+        }
+
+        $dataFoto = $this->request->getFile('foto');
+
         $dataForm = [
             'nama' => $this->request->getPost('nama'),
             'harga' => $this->request->getPost('harga'),
@@ -33,11 +45,11 @@ class ProdukController extends BaseController
             'created_at' => date("Y-m-d H:i:s")
         ];
 
-        // if ($dataFoto->isValid() && !$dataFoto->hasMoved()) {
-        //     $fileName = $dataFoto->getRandomName();
-        //     $dataForm['foto'] = $fileName;
-        //    // $dataFoto->move('img/', $fileName);
-        // }
+        if ($dataFoto->isValid() && !$dataFoto->hasMoved()) {
+            $fileName = $dataFoto->getRandomName();
+            $dataForm['foto'] = $fileName;
+            $dataFoto->move('img/', $fileName);
+        }
 
         $this->product->insert($dataForm);
 
@@ -46,6 +58,18 @@ class ProdukController extends BaseController
 
     public function edit($id)
     {
+        $validation = \Config\Services::validation();
+
+        $validation->setRules([
+            'nama' => 'required|min_length[5]',
+            'harga' => 'required|numeric',
+            'jumlah' => 'required|numeric',
+        ]);
+
+        if (!$validation->withRequest($this->request)->run()) {
+            return redirect()->back()->withInput()->with('errors', $validation->getErrors());
+        }
+
         $dataProduk = $this->product->find($id);
 
         $dataForm = [
@@ -111,4 +135,3 @@ class ProdukController extends BaseController
         $dompdf->stream($filename);
     }
 }
-?>  

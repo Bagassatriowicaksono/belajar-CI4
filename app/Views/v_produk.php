@@ -1,16 +1,27 @@
 <?= $this->extend('layout') ?>
 <?= $this->section('content') ?>
 
-<?php if (session()->getFlashData('success')): ?>
+<?php if (session()->getFlashData('success')) : ?>
     <div class="alert alert-info alert-dismissible fade show" role="alert">
         <?= session()->getFlashData('success') ?>
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
 <?php endif; ?>
 
-<?php if (session()->getFlashData('failed')): ?>
+<?php if (session()->getFlashData('failed')) : ?>
     <div class="alert alert-danger alert-dismissible fade show" role="alert">
         <?= session()->getFlashData('failed') ?>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+<?php endif; ?>
+
+<?php if (session()->getFlashdata('errors')) : ?>
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <ul>
+            <?php foreach (session()->getFlashdata('errors') as $error) : ?>
+                <li><?= $error ?></li>
+            <?php endforeach; ?>
+        </ul>
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
 <?php endif; ?>
@@ -35,14 +46,14 @@
         </tr>
     </thead>
     <tbody>
-        <?php foreach ($product as $index => $produk): ?>
+        <?php foreach ($product as $index => $produk) : ?>
             <tr>
                 <th scope="row"><?= $index + 1 ?></th>
                 <td><?= $produk['nama'] ?></td>
-                <td><?= $produk['harga'] ?></td>
+                <td><?= "Rp " . number_format($produk['harga'], 2, ",", ".") ?></td>
                 <td><?= $produk['jumlah'] ?></td>
                 <td>
-                    <?php if ($produk['foto'] != '' && file_exists("img/" . $produk['foto'])): ?>
+                    <?php if ($produk['foto'] != '' && file_exists("img/" . $produk['foto'])) : ?>
                         <img src="<?= base_url("img/" . $produk['foto']) ?>" width="100px">
                     <?php endif; ?>
                 </td>
